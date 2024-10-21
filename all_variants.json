@@ -1,0 +1,24 @@
+[
+    {
+        "attachment": {
+            "key1": "value1"
+        },
+        "id": 32,
+        "key": "variant1"
+    },
+    {
+        "attachment": {
+            "hello": "world"
+        },
+        "id": 33,
+        "key": "variant2"
+    },
+    {
+        "attachment": {
+            "helloooo": "worlddddd",
+            "k": "v"
+        },
+        "id": 34,
+        "key": "new_variant"
+    }
+]

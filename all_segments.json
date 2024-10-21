@@ -1,0 +1,108 @@
+[
+    {
+        "constraints": [
+            {
+                "id": 32,
+                "operator": "EQ",
+                "property": "prop11",
+                "value": "\"correct\""
+            },
+            {
+                "id": 33,
+                "operator": "EQ",
+                "property": "prop12",
+                "value": "\"correct2\""
+            }
+        ],
+        "description": "test_segment1_new",
+        "distributions": [
+            {
+                "id": 50,
+                "percent": 100,
+                "variantID": 32,
+                "variantKey": "variant1"
+            }
+        ],
+        "id": 29,
+        "rank": 0,
+        "rolloutPercent": 100
+    },
+    {
+        "constraints": [
+            {
+                "id": 34,
+                "operator": "EQ",
+                "property": "prop21",
+                "value": "\"something\""
+            },
+            {
+                "id": 35,
+                "operator": "EQ",
+                "property": "prop22",
+                "value": "\"here as well\""
+            }
+        ],
+        "description": "segment2",
+        "distributions": [
+            {
+                "id": 51,
+                "percent": 100,
+                "variantID": 33,
+                "variantKey": "variant2"
+            }
+        ],
+        "id": 30,
+        "rank": 999,
+        "rolloutPercent": 100
+    },
+    {
+        "constraints": [
+            {
+                "id": 36,
+                "operator": "EQ",
+                "property": "con31",
+                "value": "\"val1\""
+            },
+            {
+                "id": 37,
+                "operator": "EQ",
+                "property": "con32",
+                "value": "\"val2\""
+            }
+        ],
+        "description": "new_seg3",
+        "distributions": [
+            {
+                "id": 52,
+                "percent": 100,
+                "variantID": 32,
+                "variantKey": "variant1"
+            }
+        ],
+        "id": 31,
+        "rank": 999,
+        "rolloutPercent": 100
+    },
+    {
+        "constraints": [
+            {
+                "id": 38,
+                "operator": "EQ",
+                "property": "something",
+                "value": "\"here\""
+            }
+        ],
+        "description": "fkughak",
+        "distributions": [
+            {
+                "id": 53,
+                "percent": 100,
+                "variantID": 34,
+                "variantKey": "new_variant"
+            }
+        ],
+        "id": 32,
+        "rank": 999,
+        "rolloutPercent": 100
+    }
+]
